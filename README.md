@@ -1,12 +1,11 @@
 # La Hotel
 
-![GitHub contributors]()
-![GitHub last commit])
-![GitHub language count]()
-![Font Awesome version]()
+![GitHub contributors](https://img.shields.io/github/contributors/EVondrus/Lahotel)
+![GitHub last commit](https://img.shields.io/github/last-commit/EVondrus/LaHotel)
+![GitHub language count](https://img.shields.io/github/languages/count/EVondrus/LaHotel)
+![Font Awesome version](https://img.shields.io/badge/Font%20Awesome-v6.5.2-purple)
 ![Travis CI Build]()
-![Testing coverage]()
-![GitHub forks]()
+
 
 [Here is a link to the final project]()
 
