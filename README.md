@@ -1,110 +1,234 @@
-![CI logo](https://codeinstitute.s3.amazonaws.com/fullstack/ci_logo_small.png)
+# La Hotel
 
-Welcome USER_NAME,
+![GitHub contributors]()
+![GitHub last commit])
+![GitHub language count]()
+![Font Awesome version]()
+![Travis CI Build]()
+![Testing coverage]()
+![GitHub forks]()
 
-This is the Code Institute student template for Gitpod. We have preinstalled all of the tools you need to get started. It's perfectly ok to use this template as the basis for your project submissions.
+[Here is a link to the final project]()
 
-You can safely delete this README.md file, or change it for your own project. Please do read it at least once, though! It contains some important information about Gitpod and the extensions we use. Some of this information has been updated since the video content was created. The last update to this file was: **September 1, 2021**
+This site is a comprehensive hotel management system, designed to streamline the operations of both hotel owners and guests alike. This platform is tailored to enhance the user experience for those seeking accommodations, offering a seamless journey from browsing to booking, alongside robust administrative tools for managing hotel operations efficiently.
 
-## Gitpod Reminders
+This site is fully responsive on all modern screen sizes, and it allows the different users to easily add, edit or delete their profiles, reservations, hotel and room details.
 
-To run a frontend (HTML, CSS, Javascript only) application in Gitpod, in the terminal, type:
+This site was built using HTML, CSS, Bootstrap, JavaScript, jQuery, Python, Django, and it uses a SQL database through Code Institute.
 
-`python3 -m http.server`
+![Final project mockup screenshot from Am I Responsive]()
 
-A blue button should appear to click: _Make Public_,
+## Contents
 
-Another blue button should appear to click: _Open Browser_.
+* [Icon Key](#icon-key)
 
-To run a backend Python file, type `python3 app.py`, if your Python file is named `app.py` of course.
+* [User Experience](#user-experience)
+  * [Initial Discussion](#initial-discussion)
+  * [User Stories](#user-stories)
+  * [Project goals](#project-goals)
 
-A blue button should appear to click: _Make Public_,
+* [Design](#design)
+  * [Color Scheme](#color-scheme)
+  * [Typography](#typography)
+  * [Imagery](#imagery)
+  * [Wireframes](#wireframes)
+  * [Features](#features)
+  * [Future Features](#future-features)
+  * [Audio](#audio)
+  * [Navigation bar](#navigation-bar)
 
-Another blue button should appear to click: _Open Browser_.
+* [Database Design](#database-design)
 
-In Gitpod you have superuser security privileges by default. Therefore you do not need to use the `sudo` (superuser do) command in the bash terminal in any of the lessons.
+* [Technologies Used](#technologies-used)
+  * [Languages](#languages)
+  * [Workspace](#workspace)
+  * [Version Control](#version-control)
+  * [Wireframing](#wireframing)
+  * [Responsive Design](#responsive-design)
+  * [Documentation](#documentation)
+  * [Site Design](#site-design)
+  * [Database Design](#database-design)
+  * [Frameworks, Libraries and Others](#frameworks-libraries-and-others)
 
-To log into the Heroku toolbelt CLI:
+* [Deployment](#deployment)
 
-1. Log in to your Heroku account and go to *Account Settings* in the menu under your avatar.
-2. Scroll down to the *API Key* and click *Reveal*
-3. Copy the key
-4. In Gitpod, from the terminal, run `heroku_config`
-5. Paste in your API key when asked
+* [Testing](#testing)
+  * [Solved Bugs](#solved-bugs)
+  * [Known Bugs](#known-bugs)
 
-You can now use the `heroku` CLI program - try running `heroku apps` to confirm it works. This API key is unique and private to you so do not share it. If you accidentally make it public then you can create a new one with _Regenerate API Key_.
-
-------
-
-## Release History
-
-We continually tweak and adjust this template to help give you the best experience. Here is the version history:
-
-**September 20 2023:** Update Python version to 3.9.17.
-
-**September 1 2021:** Remove `PGHOSTADDR` environment variable.
-
-**July 19 2021:** Remove `font_fix` script now that the terminal font issue is fixed.
-
-**July 2 2021:** Remove extensions that are not available in Open VSX.
-
-**June 30 2021:** Combined the P4 and P5 templates into one file, added the uptime script. See the FAQ at the end of this file.
-
-**June 10 2021:** Added: `font_fix` script and alias to fix the Terminal font issue
-
-**May 10 2021:** Added `heroku_config` script to allow Heroku API key to be stored as an environment variable.
-
-**April 7 2021:** Upgraded the template for VS Code instead of Theia.
-
-**October 21 2020:** Versions of the HTMLHint, Prettier, Bootstrap4 CDN and Auto Close extensions updated. The Python extension needs to stay the same version for now.
-
-**October 08 2020:** Additional large Gitpod files (`core.mongo*` and `core.python*`) are now hidden in the Explorer, and have been added to the `.gitignore` by default.
-
-**September 22 2020:** Gitpod occasionally creates large `core.Microsoft` files. These are now hidden in the Explorer. A `.gitignore` file has been created to make sure these files will not be committed, along with other common files.
-
-**April 16 2020:** The template now automatically installs MySQL instead of relying on the Gitpod MySQL image. The message about a Python linter not being installed has been dealt with, and the set-up files are now hidden in the Gitpod file explorer.
-
-**April 13 2020:** Added the _Prettier_ code beautifier extension instead of the code formatter built-in to Gitpod.
-
-**February 2020:** The initialisation files now _do not_ auto-delete. They will remain in your project. You can safely ignore them. They just make sure that your workspace is configured correctly each time you open it. It will also prevent the Gitpod configuration popup from appearing.
-
-**December 2019:** Added Eventyret's Bootstrap 4 extension. Type `!bscdn` in a HTML file to add the Bootstrap boilerplate. Check out the <a href="https://github.com/Eventyret/vscode-bcdn" target="_blank">README.md file at the official repo</a> for more options.
-
-------
-
-## FAQ about the uptime script
-
-**Why have you added this script?**
-
-It will help us to calculate how many running workspaces there are at any one time, which greatly helps us with cost and capacity planning. It will help us decide on the future direction of our cloud-based IDE strategy.
-
-**How will this affect me?**
-
-For everyday usage of Gitpod, it doesn’t have any effect at all. The script only captures the following data:
-
-- An ID that is randomly generated each time the workspace is started.
-- The current date and time
-- The workspace status of “started” or “running”, which is sent every 5 minutes.
-
-It is not possible for us or anyone else to trace the random ID back to an individual, and no personal data is being captured. It will not slow down the workspace or affect your work.
-
-**So….?**
-
-We want to tell you this so that we are being completely transparent about the data we collect and what we do with it.
-
-**Can I opt out?**
-
-Yes, you can. Since no personally identifiable information is being captured, we'd appreciate it if you let the script run; however if you are unhappy with the idea, simply run the following commands from the terminal window after creating the workspace, and this will remove the uptime script:
-
-```
-pkill uptime.sh
-rm .vscode/uptime.sh
-```
-
-**Anything more?**
-
-Yes! We'd strongly encourage you to look at the source code of the `uptime.sh` file so that you know what it's doing. As future software developers, it will be great practice to see how these shell scripts work.
+* [Credits](#credits)
+  * [Code](#code)
+  * [Content](#content)
+  * [Media](#media)
+  * [Acknowledgements](#acknowledgements)
 
 ---
 
-Happy coding!
+## Icon key
+
+&#128272; <-- Superuser only access
+
+&#128100; <-- Logged In Only
+
+&#128683; <-- Logged Out only
+
+&#9989; <-- Yes / Visible
+
+&#10060; <-- No / Not visible
+
+[Back to the top](#lead-shot-hazard)
+
+---
+
+## User Experience
+
+### Initial Discussion
+
+* This project is something I wanted to create as I'm a passionate traveler and previously been working in the hotel buisness.
+* I wanted to create a website linked to a database, which allows users to log in, view hotel information, room details, and make room reservations.
+* I wanted the administration to be able to add, edit and delete hotel information, room details and reservations.
+
+### User Stories
+
+**User Story Id** | **As a / an...** | **I should be able to...** | **So that I can...** |
+| --- | --- | --- | --- |
+||| **Overall** ||
+| A1 | Site User | View hotel details, rooms, room details and contact information | Make informed decisions about the choice of my stay and reservation |
+| A2 | Site Owner | Match the design and personality of the hotel with the site | Easily show guests that this site is linked to the hotel |
+| A3 | Site Owner | Offer a website that is easy to navigate and free of confusion | Avoid the stress of guests needing more assistance than necessary |
+| A4 | Staff User | Access necessary tools and information | Perform job duties effectively |
+| A5 | Admin User | Manage the overall operation of the hotel | Ensure smooth daily operations |
+||| **Viewing & Navigation** ||
+| B1 | Site User | Easily navigate the site | Enjoy a seamless browsing experience |
+| B2 | Site User | View detailed information and amenities offered by the hotel | Understand what the hotel provides |
+| B3 | Site User | Browse through all available rooms | Select accommodations that meet my preferences |
+| B4 | Site User | View full room information including price, amenities, images, capacity and availability | Evaluate options before making a reservation |
+| B5 | Site User | Easily see the total estimated cost of my stay | Budget accordingly for my visit |
+| B6 | Site User | Receive visual feedback upon completing actions | Instantly confirm that my interactions with the site are acknowledged |
+| B7 | Site User | Contact the hotel via the site | Ask questions or request services |
+||| **Registration & User Accounts** ||
+| C1 | Site User | Register for an account | Store my personal details for faster bookings in the future |
+| C2 | Site User | Log In | Access my account |
+| C3 | Site User | Log Out | 	Protect my personal information on public or shared devices |
+| C4 | Site User | Receive an email confirmation after creating an account | Verify my registration was successful |
+| C5 | Site User | Create, update or delete my personal information | Ensure my profile remains accurate and up-to-date |
+| C6 | Site User | Reset Password | Easily recover my account access if I forget my password | Regain access to my account without needing to create a new one
+| C7 | Site User | Request Account Deletion | Have the option to permanently delete my account | Exercise control over my personal data post-stay
+||| **Sorting & Searching** ||
+| D1 | Site User | Sort rooms by category | Easily compare different room types |
+| D2 | Site User | View details of a specific room category | Get a clear idea of what each room category offers |
+| D3 | Site User | Input my desired check-in and check-out dates | Sort room availability according to my travel schedule |
+| D4 | Site User | View availability calendar for each room category | At a glance, see which days rooms are available |
+||| **Reservation** ||
+| E1 | Site User | Make a reservation online without having to pay upfront | Secure my room for my stay without immediate financial commitment |
+| E2 | Site User | View details of my reservation | Confirm the specifics of my booking |
+| E3 | Site User | Easily modify my reservation details from my profile page | Adjust my stay based on changing plans |
+| E4 | Site User | Revisit my reservation after logging out and back in | Retrieve my booking details |
+| E5 | Site User | Receive a confirmation email with details of my reservation | Have a record of my confirmed booking |
+| E6 | Site User | Cancel my reservation through the site | Change my plans if needed |
+| E7 | Site User | Make a room reservation without having to log in | Quickly and easily secure a room for my stay without the need for an account |
+||| **Hotel Admin Management** ||
+| F1 | Admin User | Edit any hotel or room details | Update details of the hotel and rooms |
+| F2 | Admin User | Delete any details about the hotel or room listings | Remove old information from the site and maintain accuracy and relevance of our inventory |
+| F3 | Admin User | Add a new hotel details and/or room types | Add new hotel features and/or Expand our accommodation options |
+| F4 | Admin User | Create, read, update, and delete reservations | Efficiently manage room bookings |
+| F5 | Admin User | Create, read, update, and delete staff profiles | Manage hotel staff and their responsibilities |
+||| **Hotel Staff Management** ||
+| G1 | Staff User | Create and update their account staff profiles | Personalize their profile for hotel operations |
+| G2 | Staff User | Create, update and delete reservations | Assist guests with room reservation |
+| G3 | Staff User | Create, update and delete guest details | Assist guests with personal details |
+| G4 | Staff User | Create, update, and delete room statuses | Update room availability and manage reservations |
+||| **Authentication & Security** ||
+| H1 | Site User | Verify my email address | Ensure my account is set up securely |
+| H2 | Site User | Be confident that my password is stored securely | Feel safe from malicious activity |
+| H3 | Site Owner | Be confident of the security of the restricted pages | Feel safe from malicious activity |
+
+
+### Project Goals
+
+* The main goal is to create an easily editable site to elevate the guest experience and simplify hotel operations.
+* Designed with a user-centric approach, the platform should cater the needs of site users, site owners, staff users, and admin users.
+* This project also demonstrates my understanding of maintaining a database attached to a website, with full CRUD (Create, Read, Update and Delete) functionality, using CI SQL database, and Cloudinairy Services.
+
+[Back to the top](#)
+
+---
+
+## Design
+
+### Color Scheme
+
+* The main colors used in this site are Dark Slater Blue, Gold and Cloudy White.
+* These main colors are the colors in the hotels's logo, and they permeate through the site.
+* These colors were each selected to embody the serene elegance and natural beauty of a Scandinavia, reflecting the tranquil ambiance and sophisticated charm of the setting.
+* A dark green has been used for the sucess messages, to signify that this is a successive action.
+* A dark red has been used for all Delete buttons, to signify that this is a destructive action.
+* The mustard yellow has been used for the hover state of the call-to-action buttons.
+* Different color shades have also been used on the hover state of the social media icons on the Contact page to match the icons.
+
+![Color scheme](static/docs/img/colors.png)
+
+### Typography
+
+* For the fonts, I selected Roboto Slab for headings and Open Sans for body text, both available through Google Fonts.
+* These choices were made with a keen focus on readability and accessibility, ensuring a welcoming experience for users with dyslexia and partial visual impairments.
+* The elegance and readability of these fonts contribute to the app's overall sophistication and ease of use.
+* By utilizing the standard HTML font size of 16px, ensuring to not have any fonts smaller than that, to aid visually impaired users.
+* Also, the recommended smallest font size for accessible websites is 12px, so by keeping all font sizes at the HTML standard of 16px or above, I ensured to be fully compliant with the [Penn State University Accessibility and Usability Guidelines](https://accessibility.psu.edu/fontsizehtml/).
+* Font sizes are also able to be zoomed to 200% without losing contrast or functionality, to comply with the [WCAG Guidelines on fonts](https://www.w3.org/TR/UNDERSTANDING-WCAG20/visual-audio-contrast-scale.html).
+* Lastly, to prevent the app from appearing overly assertive, I incorporated a mix of uppercase and lowercase text strategically.
+
+![An example of the font used]()
+
+### Imagery
+
+* The imagery and logo featured within this hotel app are meticulously crafted using advanced [AI technologies]()
+* Integrated to forge a powerful connection between the hotel's brand and the app's interface.
+* Subtle box shadows and gradients have been artfully applied. These design elements echo the hotel's graphic styling, characterized by neutral, soft colors and refined lines, enhancing the app's aesthetic appeal.
+* All links have their underlines removed for stylistic purposes. The links in the footer re-gain their underlines when they're hovered over or focused on.
+* All interactable objects have hover and focus styles applied to make it clear to the user that those objects are interactable.
+* Icons from [Font Awesome](https://fontawesome.com/) have been used throughout the site to add meaning where relevant. These icons are accompanied by either visible text or descriptive aria-labels, ensuring inclusivity and accessibility.
+* Button and link colors have been used to convey meaning, mainly in the use of the color red to convey 'Delete' or 'Cancel' as dangerous actions.
+
+### Wireframes
+
+* [Wireframes for desktop, mobile, and tablet for this project]().
+* [Database schema for this project]().
+
+### Features
+
+#### Create a user profile
+
+* This feature allows the user to:
+  * Register for an account with an email address, username, and password.
+  * Ensure no typos by entering the password twice, with the site checking to confirm that the passwords match.
+  * Ensure the correct email address by sending a verification email to the email address the user has supplied.
+  * &#128100; Store their details for faster checkout.
+  * &#128100; Keep a record of their reservation history.
+
+![User's profile, including details update form and order history]()
+
+#### Rooms
+
+* This feature allows the user to:
+  * View all rooms of the hotel on the website.
+  * Browse rooms by category through the main navigation bar.
+  * Click on a room card to view the full room details, including:
+    * Name
+    * Category
+    * Price per night
+    * Image
+    * Description
+  * Click the 'Book' button to be redirected to the page for making a reservation of the selected room.
+
+![Rooms page with back to top button]()
+
+#### &#128272; Create, Edit and Delete Room details
+
+* This feature allows the superuser to:
+  * Add a new room to the hotel.
+  * Edit an existing room.
+  * Delete an existing room.
+  * Include images, by uploading directly from the superuser's computer.
+
+![Admin functionality to create and update products]()
