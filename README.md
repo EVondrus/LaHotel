@@ -34,7 +34,6 @@ This site was built using HTML, CSS, Bootstrap, JavaScript, jQuery, Python, Djan
   * [Wireframes](#wireframes)
   * [Features](#features)
   * [Future Features](#future-features)
-  * [Audio](#audio)
   * [Navigation bar](#navigation-bar)
 
 * [Database Design](#database-design)
@@ -402,4 +401,231 @@ The navigation bar changes depending on user status and screen size:
 [Back to the top](#)
 
 ---
+
+## Database Design (TBC)
+
+This database uses a SQL database through Code Institure. [ER Diagram]().
+
+[Back to the top](#)
+
+---
+
+## Technologies Used
+
+### Languages Used
+
+#### HTML
+
+* [HTML5](https://developer.mozilla.org/en-US/docs/Web/Guide/HTML/HTML5)
+
+#### CSS
+
+* [CSS3](https://developer.mozilla.org/en-US/docs/Archive/CSS3#:~:text=CSS3%20is%20the%20latest%20evolution,flexible%20box%20or%20grid%20layouts.)
+
+#### JavaScript
+
+* [JavaScript](https://developer.mozilla.org/en-US/docs/Web/JavaScript)
+* This project uses JavaScript ES6 and jQuery.
+
+#### Python
+
+* [Python](https://www.python.org/)
+* This project uses Python 3.12.3.
+
+### Workspace
+
+#### GitPod & Visual Studio Code
+
+[GitPod](https://gitpod.io/) was used as a virtual IDE workspace to build this site.
+[Visual Studio Code](https://code.visualstudio.com/) was used as a local IDE workspace to build the site.
+
+### Version Control
+
+#### Git
+
+[Git](https://git-scm.com/) was used for version control by utilizing the Gitpod and VS Code terminal to add and commit to Git and push to GitHub.
+
+#### GitHub
+
+[GitHub](https://github.com/) is used to store the code for this project after being pushed from Git.
+
+### Wireframing
+
+#### Balsamiq
+
+[Balsamiq](https://balsamiq.com/) was used to create the wireframes during the design process.
+
+### Responsive Design
+
+#### Am I Responsive Design
+
+[Am I Responsive Design](http://ami.responsivedesign.is/#) was used to check the responsive design of the site, and to create the final site image.
+
+#### Responsinator
+
+[Responsinator](http://www.responsinator.com/) was used to help improve the responsive design on a variety of devices.
+
+### Documentation
+
+#### Shields.io
+
+[Shields.io](https://shields.io/) was used to create the GitHub badges for the top of this README.md file.
+
+#### Carbon
+
+[Carbon](https://carbon.now.sh/) was used to take elegant screenshots of code for this documentation.
+
+#### JSHint extension
+
+[JSHint Extension](https://open-vsx.org/vscode/item?itemName=dbaeumer.jshint) was used on GitPod to maintain code quality at all times.
+
+#### markdownlint extension
+
+[markdownlint Extension](https://open-vsx.org/vscode/item?itemName=DavidAnson.vscode-markdownlint) was used on GitPod to ensure all markdown was correctly formatted.
+
+### Site Design
+
+#### Font Awesome
+
+[Font Awesome](https://fontawesome.com/) was used on all pages to add the icons.
+
+#### Google Fonts
+
+[Google Fonts](https://fonts.google.com/) was used to select all the fonts on the site.
+
+#### Favicon.io
+
+[favicon.io](https://favicon.io/) used to create a site favicon.
+
+#### Calendar
+
+[Python calendar module](https://docs.python.org/3/library/calendar.html) was used to display the date of upcoming gigs in a user-friendly format.
+
+### Packages (TBC)
+
+| Name | Purpose |
+|------|---------|
+| Django | Framework |
+| Flake-8 | Syntax |
+| Pylint | Syntax |
+| Pillow | Images |
+| django-allauth | Authentication |
+| django-storages | Custom Storage Backends |
+| django-countries | Country Form Field |
+| gunicorn | WSGI HTTP Server |
+| django-crispy-forms | Front End Form Rendering |
+| dj-database-url | Database Configuration |
+| psycopg2-binary | PostgreSQL DB Adaptor |
+| coverage | Test Coverage |
+| travis.ci | Testing |
+| | |
+
+### Hosting
+
+#### Heroku
+
+[Heroku](https://www.heroku.com) was used to deploy the live site initially.
+
+#### Cloudinairy
+
+[Amazon AWS S3](https://s3.console.aws.amazon.com/s3) was used to host this project's images and static files.
+
+### Frameworks, Libraries, and Others
+
+#### Google DevTools
+
+[Google DevTools](https://developer.chrome.com/docs/devtools/) was used to help find what code correlated to which feature.
+
+#### Lighthouse
+
+[Lighthouse](https://developers.google.com/web/tools/lighthouse) was used to ensure that the code was as performant as possible, conforming to best practices, and SEO and Accessibility guidelines.
+
+#### WebPageTest
+
+[WebPageTest](https://www.webpagetest.org/) was used to ensure that the code was as performant as possible, conforming to best practices, and SEO and Accessibility guidelines. As it is often more reliable than Lighthouse, this was used near the end of the project to fix any remaining issues.
+
+#### Jinja
+
+[Jinja](https://jinja.palletsprojects.com/en/3.0.x/) was used to help create the templating for this site.
+
+#### Bootstrap
+
+[Bootstrap](https://getbootstrap.com/) was used to create a beautiful, responsive website.
+
+#### jQuery
+
+[jQuery](https://jquery.com/), a JavaScript library was used for DOM traversal, HTML manipulation, and event handling.
+
+#### Djecrety
+
+[Djecrety](https://djecrety.ir/) was used to generate a strong `SECRET_KEY`.
+
+#### pip
+
+[pip](https://pip.pypa.io/en/stable/) was used to install the required dependencies for this site.
+
+#### Slack
+
+[Slack](https://slack.com/intl/en-gb/) was used to communicate with the [Code Institute](https://codeinstitute.net/) community for help and support with bug fixes, and a peer code review.
+
+
+[Back to the top](#)
+
+---
+
+## Deployment (TBC)
+
+[Please click here for all Deployment steps and requirements]().
+
+[Back to the top](#)
+
+---
+
+## Testing (TBC)
+
+[Click here to view the full testing steps](), which were completed on every device and Google Chrome, Safari and Microsoft Edge browswers, and screenshots of testing.
+
+### Solved Bugs (TBC)
+
+
+
+### Known Bugs
+
+* None found, if any errors are found, please contact me via my GitHub ([EVondrus](https://github.com/EVondrus/)) to get them fixed.
+
+[Back to the top](#)
+
+---
+
+## Credits
+
+### Code
+
+* [Font Awesome](https://fontawesome.com/): Library of icons used for social media and download links.
+* This website was made with the help of the tutorials from Code institute for the Code Star project by Chris Zielinski. The code has been customised and improved to fit this project.
+* [Django Documentation](https://docs.djangoproject.com/en/3.2/) has been used to ensure correct syntax usage throughout the code.
+* [Stack Overflow](https://stackoverflow.com/) has been used to help with deciphering the django error codes, and searching for bug fixes.
+* [Chris Anstey](https://github.com/ansteychris), a Digital Experience Lead at Google, for the discussion we had about Lighthouse vs WebPageTest.
+* I followed [this video from JustDjango](https://www.youtube.com/watch?v=NG48CLLsb1A) to add the Google social login functionality.
+* Diasy Mc Dee
+* [Dave Horrocks](https://github.com/DaveyJH) helped me with working out the logic and syntax for the Songkick API data and the Django testing.
+
+### Content
+
+* All content was created by [Ellenor Vondrus](https://github.com/EVondrus).
+* [Click here to view links to all sites I used for research or testing]().
+
+### Media
+
+* All media on this site is created by me and my partner Mladen Djurdjevic, using AI technologies.
+
+### Acknowledgements
+
+* My mentor, Antonio Rodriguez, at [Code Institute](https://codeinstitute.net/), for continuous helpful feedback and support.
+* The team at [Code Institute](https://codeinstitute.net/), for teaching me the necessary skills to create this site.
+* The awesome people at the #community-Sweden slack channel.
+* My partner Mladen Djurdjevic for his continuous support throughout my coding journey.
+
+[Back to the top](#)
+
 
