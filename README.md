@@ -197,28 +197,48 @@ This site was built using HTML, CSS, Bootstrap, JavaScript, jQuery, Python, Djan
 
 ### Features
 
+### Home page
+
+* This feature allows the user to:
+ * Get a view of the hotel's ambiance with high-quality images and engaging text, providing visitors with a glimpse of the hotel's offerings.
+ * Fill out a check in - check out form to check for room avaliability of the desired dates. 
+ * Viewing the room types in a carousell - each option linking to a detailed room description page with the choice to make a room reservation.
+
 #### Create a user profile
 
 * This feature allows the user to:
-  * Register for an account with an email address, username, and password.
+  * Register for an account with an email address, first name, last name and password.
   * Ensure no typos by entering the password twice, with the site checking to confirm that the passwords match.
-  * Ensure the correct email address by sending a verification email to the email address the user has supplied.
+  * Ensure the correct email address by sending a verification email to the email address the user has supplied. ( CHECK )
   * &#128100; Store their details for faster checkout.
   * &#128100; Keep a record of their reservation history.
 
-![User's profile, including details update form and order history]()
+![User's profile, including details update form]()
+
+### Log in
+
+* This feature allows the user to:
+ * Log in to the site with email address and password.
+  * Check the box to "remeber me" for upcoming logins.
+ * Browse their profile page.
+  * View, update and delete their profile details.
+ * Browse their room reservations.
+  * View, update and cancel room reservations.
+ * Change password.
 
 #### Rooms
 
 * This feature allows the user to:
   * View all rooms of the hotel on the website.
-  * Browse rooms by category through the main navigation bar.
+  * Browse rooms by category through the main navigation bar or carousell from the homepage.
   * Click on a room card to view the full room details, including:
-    * Name
     * Category
     * Price per night
+    * Capacity
     * Image
     * Description
+    * User Input check in - check out dates
+    * Avaliability for desired dates
   * Click the 'Book' button to be redirected to the page for making a reservation of the selected room.
 
 ![Rooms page with back to top button]()
@@ -226,9 +246,160 @@ This site was built using HTML, CSS, Bootstrap, JavaScript, jQuery, Python, Djan
 #### &#128272; Create, Edit and Delete Room details
 
 * This feature allows the superuser to:
-  * Add a new room to the hotel.
-  * Edit an existing room.
-  * Delete an existing room.
+  * Add a new category and/or room details to the hotel.
+  * Edit an existing categoy or room details.
+  * Delete an existing category or room.
   * Include images, by uploading directly from the superuser's computer.
 
-![Admin functionality to create and update products]()
+![Admin functionality to create, update or room details]()
+
+#### &#128272; Create, Edit and Delete Hotel details
+
+* This feature allows the superuser to:
+  * Add a new details to the About and Contact page.
+  * Edit an existing information.
+  * Delete an existing information.
+  * Include images, by uploading directly from the superuser's computer.
+
+![Admin functionality to create, update or delete hotel details]()
+
+#### &#128272; Create, Edit and Delete Room reservations
+
+* This feature allows the superuser to:
+  * Add a new room reservation.
+  * Edit an existing reservation.
+  * Delete an existing reservation.
+
+![Admin functionality to create, update or delete room reservation]()
+
+#### Confirm to delete modal
+
+* This feature allows the user to:
+  * &#128272; Confirm deletion of a reservation or their profile.
+  * &#128272; Avoid accidentally deleting a product.
+
+![Confirm to delete modal]()
+
+#### Reservation
+
+* This feature allows the user to:
+  * Add check in and check out dates.
+  * Fill up details for the reservation
+   * name, lastname
+   * no. of guests
+   * phonenumber
+   * address
+   * emailadress
+  * Adjust the quantity of rooms.
+  * Edit or delete room category for the the reservation.
+  * View the grand total and details in the reservation.
+
+![A shopping bag with an item in it](static/docs/img/bag-feature.png)
+
+#### Navigation bar
+
+The navigation bar changes depending on user status and screen size:
+
+| Nav Link | &#128683; | &#128100; | &#128272; |
+|-------|-----|-----|-----|
+| Logo (Homepage) | &#9989; | &#9989; | &#9989; |
+| Home | &#9989; | &#9989; | &#9989; |
+| Rooms | &#9989; | &#9989; | &#9989; |
+| Room Details | &#9989; | &#9989; | &#9989; |
+| Contact Us | &#9989; | &#9989; | &#9989; |
+| About | &#9989; | &#9989; | &#9989; |
+| Hotel Management | &#10060; | &#10060; | &#9989; |
+| Profile | &#10060; | &#9989; | &#9989; |
+| Log Out | &#10060; | &#9989; | &#9989; |
+| Log In | &#9989; | &#10060; | &#10060; |
+| Register | &#9989; | &#10060; | &#10060; |
+
+* Navigation bar
+
+![Overall navigation bar]()
+
+* Logged in
+
+![Logged in navigation dropdown]()
+
+* Logged out
+
+![Logged out navigation dropdown]()
+
+* An admin
+
+![Admin navigation dropdown]()
+
+* On small screen sizes
+
+![Mobile navigation burger icon]()
+![Mobile navigation bar expanded]()
+
+#### Auto-updating copyright year
+
+* The copyright year auto-updates to the current year.
+
+![The auto-updating copyright feature]()
+
+#### About Section
+
+* This feature allows the user to:
+  * Read about the hotel, it's history and owners.
+  * Navigate to the room details.
+  * Navigate to any of the hotel's social media pages.
+
+ ![The About page]()
+
+#### Contact section
+
+* This feature allows the user to:
+  * Contact the hotel via email for queries about their stay or reservation.
+  * View adress and location including google maps.
+  * View phone number to contact the hotel in a quicker manner.
+  * Navigate to any of the hotel's social media pages.
+  * It also has a customised hover feature, where when the user hovers over each icon, the icon becomes the main color of the site that it is linking to.
+
+![The Contact Us page, with an example of the hover effect applied]()
+
+### Future Features (TBC)
+
+* Stock count for each product size, including out-of-stock sizes.
+* Book button is disabled if the chosen room category is not avaliable for the desired dates.
+* Social media login via Facebook and Google.
+* Special offers.
+* Regex or number validation on phone number fields.
+
+### Defensive Design
+
+* Form validation
+  * This has been used on every form input on the site to ensure the correct data is added.
+  * If incorrect data is added, red warning text appears, to instruct the user on how to fix the error.
+  * Image file uploads are validated by [Django's ImageField](https://docs.djangoproject.com/en/3.2/ref/models/fields/#imagefield), to ensure that the images that are uploaded are genuine images, and aren't malicious.
+  * Messages when an action is completed
+  * A message will appear in the top right of the screen when the following actions are completed:
+    * The user deletes their profile.
+    * The user edits the date of their resrvation.
+    * The user cancel their resrvation.
+    * A reservation succeeds.
+    * A reservation fails due to unavaliability.
+    * An error occurs.
+    * &#128100; A user updates their profile information.
+    * &#128100; A user deletes their profile.
+    * &#128272; A superuser adds a new room category.
+    * &#128272; A superuser edits room details.
+    * &#128272; A superuser delete a room or room category.
+* Default image
+  * A default image will display if there is no image added.
+  * A default image will display if the image link has broken.
+* Custom error pages
+  * A custom 404 error page will show if the user attempts to visit a page that doesn't exist.
+  * A custom 500 error page will show if an internal server error occurs.
+* Login validation
+  * The `@login_required` decorator has been used to ensure that the restricted pages are secure.
+  * If a logged-out user tries to access a restricted page, they will be redirected to the login page.
+  * If a logged-in user without access rights tries to access a restricted page, it redirects them to the homepage, and presents them with a message saying 'You do not have access to this page'.
+
+[Back to the top](#)
+
+---
+
